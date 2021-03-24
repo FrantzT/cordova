@@ -1,0 +1,29 @@
+https://cordova.apache.org/docs/en/latest/guide/cli/index.html
+
+sudo npm install -g npm 
+sudo npm install -g cordova
+cordova create hello com.example.hello HelloWorld
+cd hello
+cordova platform add androidcordova
+
+Install android studio
+Java SDK 8
+brew install gradle
+
+android studio to lunch emulator
+
+cd /Users/$USER/Library/Android/sdk/emulator
+
+frantz$ ./emulator -list-avds
+Pixel_3a_API_30_x86
+
+./emulator @Pixel_3a_API_30_x86
+
+cd prodject_directory (hallo)
+
+cordova emulate android
+
+
+// keystore
+
+https://codeburst.io/publish-a-cordova-generated-android-app-to-the-google-play-store-c7ae51cccdd5
